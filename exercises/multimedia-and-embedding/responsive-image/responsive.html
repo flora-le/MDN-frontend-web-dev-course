@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Responsive HTML images demo</title>
+    <style>
+    html {
+        font-family: sans-serif;
+        background-color: gray;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <section>
+            <h1>My website</h1>
+            <!-- srcset :  filename
+                            width in pixel (w = true size of image)
+                            (find in properties of picture file)
+                  sizes : condition + width that picture can take if condition is true
+                        last value is default if every other conditions are false
+             -->
+            <img srcset="elva-fairy-480w.jpg 480w,
+             elva-fairy-800w.jpg 800w" sizes="(max-width: 600px) 480px,
+            800px" src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy">
+        </section>
+    </main>
+</body>
+
+</html>
