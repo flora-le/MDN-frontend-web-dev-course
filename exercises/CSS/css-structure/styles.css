@@ -1,0 +1,106 @@
+/* Créez votre test CSS ici */
+
+h1 {
+    text-align: center;
+}
+
+a:link {
+    color: rebeccapurple;
+}
+
+.manythings {
+    font-style: italic;
+}
+
+#onething {
+    color: red;
+}
+
+* {
+    color: grey;
+}
+
+.box p {
+    background-color: black;
+    color: white;
+}
+
+.box p:first-child {
+    color: yellow;
+}
+
+h1,
+h2,
+.intro {
+    font-size: 500%;
+}
+
+p {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+.special {
+    color: orange;
+}
+
+p {
+    color: blue;
+}
+
+.box {
+    background-color: lightgoldenrodyellow;
+    width: 500px;
+    border: 30px dotted blue;
+}
+
+.box2 {
+    margin: 30px;
+    width: 100px;
+    height: 200px;
+    background-color: rebeccapurple;
+    transform: rotate(-0.3turn);
+}
+
+.has-bg-img {
+    background-image:
+        /*  order : first is above all  */
+        linear-gradient(to bottom, rgba(255, 255, 0, 0.5), rgba(0, 0, 255, 1)),
+        url('./flower.png'),
+        url('./tree.png');
+
+    width: 1000px;
+    height: 600px;
+    padding: 300px;
+    background-clip: padding-box;
+
+    border: 30px dashed green;
+
+    color: rgba(112.2, 73.95, 229.5, 0.5);
+}
+
+body {
+    background-color: pink;
+    /* Dans les raccourcis à 4 valeurs comme padding ou margin, les valeurs sont données
+   dans l'ordre top, right, bottom, left (sens des aiguilles d'une montre depuis top).
+   Il y a d'autres raccourcis, a 2 valeurs par exemple qui padding ou margin
+   pour top/bottom, puis left/right */
+    padding: 100px 15px 15px 5px;
+
+}
+
+@media (min-width: 30em) {
+    body {
+        background-color: #effde1;
+    }
+}
+
+
+.has-bg-img2 {
+    background: #60ffc2 url("flower.png") 10px 10px repeat-x fixed;
+    height: 500px;
+    width: 3000px;
+}
