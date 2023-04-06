@@ -1,0 +1,11 @@
+h2+p {
+    color: red;
+}
+
+ul.list {
+    list-style-type: none;
+}
+
+ul.list>li {
+    border: 1px solid grey;
+}
