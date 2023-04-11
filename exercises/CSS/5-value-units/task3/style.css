@@ -1,0 +1,21 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.box {
+    background-image: url(star.png);
+    background-repeat: no-repeat;
+    height: 50%;
+
+    margin: 10px;
+    border: 10px solid black;
+    background-position: center 20%;
+}
