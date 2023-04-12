@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    border: 3px solid black;
+}
+
+.inner {
+    background-color: purple;
+    width: 60%;
+    color: white;
+    padding: 10%;
+}

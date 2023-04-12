@@ -1,0 +1,9 @@
+.box {
+    border: 3px solid black;
+    margin-bottom: 2rem;
+    width: 30%;
+}
+
+img {
+    max-width: 100%;
+}

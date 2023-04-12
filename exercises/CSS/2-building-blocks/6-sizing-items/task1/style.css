@@ -1,0 +1,15 @@
+.box {
+    border: 3px solid black;
+    margin-bottom: 2rem;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+.box1 {
+    height: 100px;
+    overflow-y: auto;
+}
+
+.box2 {
+    height: 100px;
+}
