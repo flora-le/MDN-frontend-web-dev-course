@@ -7,7 +7,7 @@ thead tr *:nth-child(2),
 thead tr *:nth-child(3),
 tbody tr *:nth-child(2),
 tbody tr *:nth-child(3),
-tfoot tr th {
+tfoot th {
     text-align: right;
 }
 
